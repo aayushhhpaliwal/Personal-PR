@@ -98,6 +98,8 @@ export const Projects = () => {
                           })
                         }
                       </Row>
+
+                      <H1>Many more ...</H1>
                     </Tab.Pane>
                     <Tab.Pane eventKey="second">
                     <Row>
@@ -113,10 +115,9 @@ export const Projects = () => {
                         }
                       </Row>
 
-                      <h1>aayush </h1>
                     </Tab.Pane>
                     <Tab.Pane eventKey="third">
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quam, quod neque provident velit, rem explicabo excepturi id illo molestiae blanditiis, eligendi dicta officiis asperiores delectus quasi inventore debitis quo.</p>
+                      <p>I have a total of 2  Years of Experience as a Full Stack Developer who worked on numerous interesting projects. I'm Constant Learner And Open To Learn Anything Which Is Required To Succeed in This Full Stack Development Position. I have Made Numerous Projects. .</p>
                     </Tab.Pane>
                   </Tab.Content>
                 </Tab.Container>
