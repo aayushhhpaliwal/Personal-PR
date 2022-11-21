@@ -1,14 +1,19 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
-import projImg1 from "../assets/img/forth project.jpg";
-import projImg2 from "../assets/img/second work.jpg";
-import projImg3 from "../assets/img/project1.jpg";
-import projImg4 from "../assets/img/first work.jpg";
-import projImg5 from "../assets/img/fifth work.jpg";
-import projImg6 from "../assets/img/12345.jpg";
+import { JsProjectCard } from "./jsProjectCard";
+import projImg1 from "../assets/img/disney.png";
+import projImg2 from "../assets/img/netflix.jpg";
+import projImg3 from "../assets/img/ecommerce.jpg";
+import projImg4 from "../assets/img/facebook.jpg";
+import projImg5 from "../assets/img/keep.gif";
+import projImg6 from "../assets/img/todo.jpg";
+import java1 from "../assets/img/drum.png";
+import java2 from "../assets/img/tasklist.png";
+import java3 from "../assets/img/music.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
+
 
 export const Projects = () => {
 
@@ -40,6 +45,23 @@ export const Projects = () => {
     },
   ];
 
+  const jsprojects = [
+    {
+      
+      description1: "drumKit",
+      imgUrl1: java1,
+    },
+    {
+      description1: "Task List",
+      imgUrl1: java2,
+    },
+    {
+      description1: "Music Player",
+      imgUrl1: java3,
+    },
+    
+  ];
+
   return (
     <section className="project" id="project">
       <Container>
@@ -53,14 +75,14 @@ export const Projects = () => {
                 <Tab.Container id="projects-tabs" defaultActiveKey="first">
                   <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                     <Nav.Item>
-                      <Nav.Link eventKey="first">Tab 1</Nav.Link>
+                      <Nav.Link eventKey="first">MERN</Nav.Link>
                     </Nav.Item>
-                    {/* <Nav.Item>
-                      <Nav.Link eventKey="second">Tab 2</Nav.Link>
+                     <Nav.Item>
+                      <Nav.Link eventKey="second">javascript</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
-                      <Nav.Link eventKey="third">Tab 3</Nav.Link>
-                    </Nav.Item> */}
+                      <Nav.Link eventKey="third">About</Nav.Link>
+                    </Nav.Item> 
                   </Nav>
                   <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : ""}>
                     <Tab.Pane eventKey="first">
@@ -77,8 +99,21 @@ export const Projects = () => {
                         }
                       </Row>
                     </Tab.Pane>
-                    <Tab.Pane eventKey="section">
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quam, quod neque provident velit, rem explicabo excepturi id illo molestiae blanditiis, eligendi dicta officiis asperiores delectus quasi inventore debitis quo.</p>
+                    <Tab.Pane eventKey="second">
+                    <Row>
+                        {
+                          jsprojects.map((jsproject, index1) => {
+                            return (
+                              <JsProjectCard
+                                key={index1}
+                                {...jsproject}
+                                />
+                            )
+                          })
+                        }
+                      </Row>
+
+                      <h1>aayush </h1>
                     </Tab.Pane>
                     <Tab.Pane eventKey="third">
                       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quam, quod neque provident velit, rem explicabo excepturi id illo molestiae blanditiis, eligendi dicta officiis asperiores delectus quasi inventore debitis quo.</p>
