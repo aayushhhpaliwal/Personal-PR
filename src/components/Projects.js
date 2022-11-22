@@ -22,26 +22,32 @@ export const Projects = () => {
       
       description: "Disney Clone",
       imgUrl: projImg1,
+      path:"https://github.com/aayushhhpaliwal/Disney-clone   ",
     },
     {
       description: "Netflix clone",
       imgUrl: projImg2,
+      path:"https://www.linkedin.com/feed/",
     },
     {
       description: "Ecommerce site",
       imgUrl: projImg3,
+      path:"https://www.linkedin.com/feed/",
     },
     {
       description: "Facebook",
       imgUrl: projImg4,
+      path:"https://www.linkedin.com/feed/",
     },
     {
       description: "Keep",
       imgUrl: projImg5,
+      path:"https://www.linkedin.com/feed/",
     },
     {
       description: "Todo List",
       imgUrl: projImg6,
+      path:"https://www.linkedin.com/feed/",
     },
   ];
 
@@ -99,7 +105,7 @@ export const Projects = () => {
                         }
                       </Row>
 
-                      <H1>Many more ...</H1>
+                      <h1>Many more ...</h1>
                     </Tab.Pane>
                     <Tab.Pane eventKey="second">
                     <Row>
@@ -114,7 +120,7 @@ export const Projects = () => {
                           })
                         }
                       </Row>
-
+                      <h1>Many more ...</h1>
                     </Tab.Pane>
                     <Tab.Pane eventKey="third">
                       <p>I have a total of 2  Years of Experience as a Full Stack Developer who worked on numerous interesting projects. I'm Constant Learner And Open To Learn Anything Which Is Required To Succeed in This Full Stack Development Position. I have Made Numerous Projects. .</p>
