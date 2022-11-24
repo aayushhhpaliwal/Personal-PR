@@ -22,29 +22,29 @@ export const Projects = () => {
       
       description: "Disney Clone",
       imgUrl: projImg1,
-      path:"https://github.com/aayushhhpaliwal/Disney-clone   ",
+      path:"https://disney-clone1-zeta.vercel.app/  ",
     },
     {
       description: "Netflix clone",
       imgUrl: projImg2,
-      path:"https://www.linkedin.com/feed/",
+      path:"https://netflix-clone-sigma-lime.vercel.app/",
     },
     {
       description: "Ecommerce site",
       imgUrl: projImg3,
-      path:"https://www.linkedin.com/feed/",
+      path:"https://my-shop-woad-gamma.vercel.app/",
+    },
+    {
+      description: "Keep",
+      imgUrl: projImg5,
+      path:"https://write-keep-jot.herokuapp.com/",
     },
     {
       description: "Facebook",
       imgUrl: projImg4,
       path:"https://www.linkedin.com/feed/",
     },
-    {
-      description: "Keep",
-      imgUrl: projImg5,
-      path:"https://www.linkedin.com/feed/",
-    },
-    {
+        {
       description: "Todo List",
       imgUrl: projImg6,
       path:"https://www.linkedin.com/feed/",
@@ -56,20 +56,23 @@ export const Projects = () => {
       
       description1: "drumKit",
       imgUrl1: java1,
+      path1:"https://drum-kit-nu-tan.vercel.app/",
     },
     {
       description1: "Task List",
       imgUrl1: java2,
+      path1:"https://to-do-list-sandy-gamma.vercel.app/",
     },
     {
       description1: "Music Player",
       imgUrl1: java3,
+      path1:"https://music-player-five-sable.vercel.app/",
     },
     
   ];
 
   return (
-    <section className="project" id="project">
+    <section className="projects" id="projects">
       <Container>
         <Row>
           <Col size={12}>

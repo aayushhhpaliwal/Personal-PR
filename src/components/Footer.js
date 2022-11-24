@@ -11,7 +11,7 @@ export const Footer = () => {
       <Container>
         <Row className="align-items-center">
           
-          <Col size={12} sm={6} className="text-center text-sm-end">
+          <Col size={1} sm={12} className="text-right text-sm-end">
             <div className="social-icon">
             <a href="https://www.linkedin.com/in/aayush-paliwal-9a2911b5/"><img src={navIcon1} alt="" /></a>
             <a href="https://github.com/aayushhhpaliwal"><img src={navIcon2} alt="" /></a>

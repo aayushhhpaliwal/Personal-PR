@@ -5,6 +5,8 @@ import express from "../assets/img/express.png";
 import mongo from "../assets/img/mongo.png";
 import figma from "../assets/img/figma.png";
 import Carousel from 'react-multi-carousel';
+import material from "../assets/img/material.png";
+import sass from "../assets/img/sass.png";
 import 'react-multi-carousel/lib/styles.css';
 import arrow1 from "../assets/img/arrow1.svg";
 import arrow2 from "../assets/img/arrow2.svg";
@@ -65,6 +67,14 @@ export const Skills = () => {
                         <img src={figma} className="Image" />
                     <h5>Figma</h5>
                 </div>
+                <div className="item">
+                <img src={sass} className="Image" />
+            <h5>Sass</h5>
+        </div>
+                <div className="item">
+                <img src={material} className="Image" />
+            <h5>Material UI</h5>
+        </div>
                         </Carousel>
                     </div>
                 </div>

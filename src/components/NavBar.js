@@ -46,7 +46,7 @@ export const NavBar = () => {
             <Nav className="ms-auto">
               <Nav.Link href="#home" className={activeLink === 'home' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('home')}>Home</Nav.Link>
               <Nav.Link href="#skills" className={activeLink === 'skills' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('skills')}>Skills</Nav.Link>
-              <Nav.Link href="#projects" className={activeLink === 'projects' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('projects')}>Projects</Nav.Link>
+              <Nav.Link href="#projects" className={activeLink === 'Projects' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('projects')}>Projects</Nav.Link>
             </Nav>
             <span className="navbar-text">
               <div className="social-icon">
@@ -54,9 +54,10 @@ export const NavBar = () => {
                 <a href="https://github.com/aayushhhpaliwal"><img src={navIcon2} alt="" /></a>
                 <a href="https://www.instagram.com/aayushhh_paliwal/"><img src={navIcon3} alt="" /></a>
               </div>
-              <HashLink to='#connect'>
-                <button className="vvd"><span>Let’s Connect</span></button>
-              </HashLink>
+             
+              <a href="https://drive.google.com/file/d/1hHxJsHDhEhRkdMPDeBKxhHeUL7Tv-FxD/view?usp=share_link" target="blank">
+                <button className="vvd"><span>My Resume</span></button></a>
+              
             </span>
           </Navbar.Collapse>
         </Container>
